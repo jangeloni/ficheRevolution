@@ -1,0 +1,30 @@
+.grid-container {
+  display: grid;
+  grid-template-columns: 0.8fr 0.9fr 1.5fr 0.8fr;
+  grid-template-rows: 1fr 1.9fr 0.6fr 0.6fr 1fr;
+  gap: 0px 0px;
+  grid-template-areas:
+    "logo infos infos experience"
+    "caracteristiques caracteristiques competences competences"
+    "pv blessures blessures blessures"
+    "sb blessures blessures blessures"
+    "equipements equipements equipements equipements";
+}
+
+.logo { grid-area: logo; }
+
+.infos { grid-area: infos; }
+
+.experience { grid-area: experience; }
+
+.competences { grid-area: competences; }
+
+.caracteristiques { grid-area: caracteristiques; }
+
+.pv { grid-area: pv; }
+
+.sb { grid-area: sb; }
+
+.blessures { grid-area: blessures; }
+
+.equipements { grid-area: equipements; }
